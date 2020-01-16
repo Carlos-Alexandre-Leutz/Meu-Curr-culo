@@ -14,6 +14,7 @@
     
 
     <link rel="stylesheet" type="text/css" href="css.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   </head>
   <body>
     <header>
@@ -31,7 +32,7 @@
             <a href="#Sobre mim" title="Sobre mim">Sobre mim</a>
           </li>
           <li>
-            <a href="#Visão geral da carreira" title="Visão geral da carreira">Visão geral da carreira</a>
+            <a href="#Visão geral da carreira" title="Visão geral da carreira">Habilidades</a>
           </li>
           <li>
             <a href="#Meus Cursos:" title="Meus Cursos:">Meus Cursos:</a>
@@ -54,34 +55,81 @@
       <li><p><strong>Telefone:</strong>(47) 999-333-485</p></li>
          <li><p><strong>E-mail: </strong> Leutzeleutz@gmail.com</p></li>
       <p></Ul>
-        <strong>Cargo: </strong> Desenvolvedor Junior
+        <strong>Cargo: </strong> Desenvolvedor Web
       </p>
+      <p>
+        <strong> Perfil Profissional</strong>
+    </p>
+    <p>
+      Desenvolvedor Web com experiência em desenvolvimento web.
+    </p>
+    <p>
+      <strong>Objetivos profissionais :</strong> Apaixonado por astronomia e pesquisa espacial procuro aprender todo tipo de tecnologia para um dia poder trabalhar para a pesquisa científica e espacial.
+    </p>
     </section>
 
-    <section id="Visão geral da carreira">
-      <img src="My Career.png" class="float-r" />
-      <p>
-        <strong>Visão geral da carreira</strong>
-    </p>
-      <p>
-        <strong>Descrição:</strong> Sou um profissional da ária de vendas com mais de 5 anos de experiência.<br>
-        Atualmente trabalho na ária de marketing digital, com venda de produtos digitais, Mas procuro me especializar na área de Desenvolvimento de Software, porque 
-        admiro muito a área  e tenho estudado muito para poder contribuir na comunidade de desenvolvedores
-      </p>
-      <p>
-        <strong>Objetivos profissionais :</strong> Apaixonado por astronomia e pesquisa espacial procuro aprender todo tipo de tecnologia para um dia poder trabalhar para a pesquisa científica e espacial.
-      </p>
+   <section id="Visão geral da carreira">
+      <!-- <img src="html.png" class="float-r" />-->
+      <h1> Habilidades</h1>
+      <ul>
+        <li> HTML</li>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <li>CSS</li>
+    </div>
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <li>JavaScript </li>
+  </div>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <li>Bootstrap   </li>
+  </div>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <li>Git</li>
+  </div>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <li>S.E.O</li>
+  </div>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <li>Wordpress</li>
+  </div>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <li>Facebook ADS   </li>
+  </div>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <li>Google ADS </li>
+  </div>
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+     
+    </ul>
 
     </section>
 
     <section id="Meus Cursos:">
-      <img src="js-logo-badge-512.png" class="float-r" />
+      <img src="js.jpg" class="float-r" />
+      
       <p>
-        <strong>Meus Cursos:</strong>
+        <strong>Universidade Estácio de Sá:</strong> Cursando Analise e Desenvolvimento de Sistemas.
       </p>
       <p>
-        <strong>Universidade Estácio de Sá
-            :</strong> Analise e Desenvolvimento de Sistemas.
+        <strong>Meus Cursos:</strong>
       </p>
       <p>
         <strong>Udemy - Web Moderno :</strong> Javascript, React, Vue JS Node, HTML, CSS, jQuery, Bootstrap, Webpack, Gulb, Banco de Dados.
@@ -97,13 +145,192 @@
         <strong>Meus Progetos: </strong>
       </p>
       <p>
-        <strong>JavaScript:</strong>
+        <strong>JavaScript:</strong> 
+        <script type="text/javascript">
+              let Accum = 0;
+              let FlagNewNum = false;
+              let PendingOp = "";	
+          
+              //Isso é para adcionando os valores dos botoes no parametro Num
+              function NumPressed(Num) {
+                  if (FlagNewNum) {
+                      document.frm_calc.txt_01.value  = Num;
+                      FlagNewNum = false;
+                     }
+                  else {
+                      if (document.frm_calc.txt_01.value == "0")
+                          document.frm_calc.txt_01.value = Num;
+                      else
+                          document.frm_calc.txt_01.value += Num;
+                     }
+              }
+          
+              //para mostrar a soma no input que simula um tela 
+              function Operation(Op) {
+                  if (document.frm_calc.txt_01.value == ""){
+                      alert("O Campo esta vázio digite um valor");
+                      document.frm_calc.txt_01.value ="0"; }
+                  else{
+                      if (FlagNewNum && PendingOp != "=");
+                      else	{
+                          FlagNewNum = true;
+                          if ( '+' == PendingOp )
+                              Accum += parseFloat(document.frm_calc.txt_01.value);
+                              else if ( '-' == PendingOp )
+                              Accum -= parseFloat(document.frm_calc.txt_01.value);
+                              else if ( '/' == PendingOp )
+                              Accum /= parseFloat(document.frm_calc.txt_01.value);
+                              else if ( '*' == PendingOp )
+                              Accum *= parseFloat(document.frm_calc.txt_01.value);
+                          else
+                              Accum = parseFloat(document.frm_calc.txt_01.value);
+                              document.frm_calc.txt_01.value = Accum;
+                              PendingOp = Op;
+                      }
+                     }
+              }
+          
+              //adicionando o pontos
+              function Ponto() {
+                  var curtxt_01 = document.frm_calc.txt_01.value;
+                  if (FlagNewNum) {
+                      curtxt_01 = "0.";
+                      FlagNewNum = false;
+                     }
+                  else {
+                  if (curtxt_01.indexOf(".") == -1)
+                      curtxt_01 += ".";
+                     }
+                  document.frm_calc.txt_01.value = curtxt_01;
+              }
+              </script>
+          <form id="bac" name="frm_calc" acton>
+          
+          <table>
+              <tr>
+              <td colspan="5">Calculadora</td>
+              </tr>
+      
+      
+              <tr>
+              <td colspan="3" ><input type="text" name="txt_01" value="0"></td>
+              <td><input type="reset" value="AC" onclick="" ></td>
+              
+              </tr>
+      
+      
+      
+              <tr>
+              <td><input type="button" value="7" name="btn_7" onclick="NumPressed(7)"class="btn btn-outline-primary" ></td>
+              <td><input type="button" value="8" name="btn_8" onclick="NumPressed(8)"class="btn btn-outline-primary" ></td>
+              <td><input type="button" value="9" name="btn_9" onclick="NumPressed(9)" class="btn btn-outline-primary"></td>
+              <td><input type="button" value="-" name="btn_subt" onclick="Operation(' - ')"class="btn btn-outline-primary" ></td>
+              
+              </tr>
+      
+      
+      
+              <tr>
+              <td><input type="button" value="4" name="btn_4" onclick="NumPressed(4)"class="btn btn-outline-primary" ></td>
+              <td><input type="button" value="5" name="btn_5" onclick="NumPressed(5)"class="btn btn-outline-primary"></td>
+              <td><input type="button" value="6" name="btn_6" onclick="NumPressed(6)" class="btn btn-outline-primary"></td>
+              <td><input type="button" value="*" name="btn_mult" onclick="Operation(' * ')"class="btn btn-outline-primary" ></td>
+             
+              </tr>
+      
+      
+           
+              <tr>
+              <td><input type="button" value="1" name="btn_1" onclick="NumPressed(1)" class="btn btn-outline-primary"></td>
+              <td><input type="button" value="2" name="btn_2" onclick="NumPressed(2)" class="btn btn-outline-primary"></td>
+              <td><input type="button" value="3" name="btn_3" onclick="NumPressed(3)"class="btn btn-outline-primary"></td>
+              <td><input type="button" value="+" name="btn_soma" onclick="Operation('+')"class="btn btn-outline-primary" ></td>
+              
+              
+               </tr>
+      
+               <tr>
+                  <td><input type="button" value="0" name="btn_0" onclick="NumPressed(0)"class="btn btn-outline-primary"></td>
+                  <td><input type="button" value=". " name="btn_pont" onclick="Ponto()"class="btn btn-outline-primary" ></td>
+                  <td><input type="button" value="=" name="btn_igual" onclick="Operation('=')" class="btn btn-outline-primary"></td>
+                  <td><input type="button" value="/" name="btn_divi" onclick="Operation(' / ')" class="btn btn-outline-primary"></td>
+      
+              
+               </tr>
+         
+             
+          </table>
+          </form>
       </p>
+      <script type="text/javascript">
+        function calcula_imc(){
+        var altura = document.imcForm.altura.value;
+        var peso = document.imcForm.peso.value;
+        
+        var quadrado = (altura * altura);
+        
+        var calculo = (peso/quadrado);
+        
+        if(calculo<18.5){
+        alert("Você está magro com esse indice: " + calculo);
+        }
+        else if(calculo>=18.5 && calculo<24.9){
+        alert("Você está normal com esse indice: " + calculo);
+        }
+        
+        else if(calculo>=25 && calculo<29.9) {
+        alert("Você está com sobre peso com esse indice: " + calculo);
+        }
+        else if(calculo>=30 && calculo<39.9) {
+        alert("Você está com obesidade com esse indice: " + calculo);
+        }
+        else if (calculo>40)
+        alert("Você estácom obesidade grave com esse indice: " + calculo);
+        }
+        
+        </script>
+        
+        
+        </head>
+        
+        <body >
+           <h1>Calcule seu IMC</h1>
+        
+        <form name="imcForm" id="imcForm" action="#">
+        
+        <p>
+        Altura<br />
+        <input type="text" id="altura" name="altura" />
+        </p>
+        
+        <p>Peso <br />
+        <input type="text" id="peso" name="peso" />
+        </p>
+        
+        <p>
+        <label>
+        <input type="radio" name="sexo" value="opção" id="sexo_0" />
+        Masculino</label>
+        <br />
+        <label>
+        <input type="radio" name="sexo" value="opção" id="sexo_1" />
+        Feminino</label>
+        </p>
+        <p><input name="Enviar" type="submit" value="Calcular" onclick="calcula_imc()" />
+        </p>
+        
       <p>
         <strong>React:</strong> 
       </p>
       <p>
-        <strong>Boots:</strong> 
+        <strong>Bootstrap:</strong> 
+      </p>
+      <p>
+        <strong>Wordpress: </strong>
+        
+       
+       <a href="https://dicasdoemagrecimento.com"><button type="button" class="btn btn-outline-primary">Visualizar</button></a>
+        
       </p>
     </section>
   </body>
